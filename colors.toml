@@ -1,0 +1,33 @@
+mode = "dark"
+
+accent = "#9a9d9a"
+selection = "#3b1616"
+muted = "#525351"
+
+background = "#101010"
+dark_background = "#0b0b0b"
+darker_background = "#060606"
+lighter_background = "#1f1f1f"
+
+foreground = "#cecfc9"
+dark_foreground = "#9d9f93"
+light_foreground = "#d8d9d4"
+bright_foreground = "#e7e7e4"
+
+# --- Colores Base ANSI ---
+red = "#d93f37"                 # Rojo piano (para archives, errores y alertas)
+green = "#cecfc9"               # Blanco marfil suave (ejecutables en ls)
+yellow = "#9d9f93"              # Gris medio cálido
+blue = "#e7e7e4"                # Blanco iluminado bokeh (directorios en ls)
+magenta = "#ba4b42"             # Rojo óxido / terracota apagado (sockets/pipes)
+cyan = "#9a9d9a"                # Gris tecla (symlinks en ls)
+orange = "#ba4b42"
+brown = "#5a1f1b"
+
+# --- Colores Bright ANSI ---
+bright_red = "#ff3333"          # Rojo brillante para avisos críticos
+bright_green = "#ffffff"        # Blanco puro brillante
+bright_yellow = "#d8d9d4"       # Blanco hueso
+bright_blue = "#ffffff"         # Blanco intenso para carpetas destacadas
+bright_magenta = "#da0f0f"      # Rojo puro
+bright_cyan = "#d8d9d4"         # Gris claro brillante
