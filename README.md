@@ -2,7 +2,6 @@
 
 **Red Instruments** is a dark, selective-color theme for Omarchy. Inspired by monochrome musical photography with subtle, striking crimson highlights, this theme blends deep charcoal and pure black bases with ivory text, soft gray tones, and sharp crimson accents on key elements.
 
----
 
 ## Previews
 
@@ -28,14 +27,13 @@ The theme includes a curated set of monochrome instrument backgrounds with selec
 | :---: | :---: |
 | ![Trumpet](backgrounds/red-trumped.jpeg) | ![Vinyl](backgrounds/red-music-record.jpeg) |
 
----
 
 ## Installation
 
 Install the theme via the Omarchy CLI:
 
 ```bash
-omarchy theme install <your-github-username>/red-instruments
+omarchy-theme-install https://github.com/Pabl0125/omarchy-theme-red-instruments
 ```
 
 To set and apply the theme:
@@ -59,14 +57,7 @@ Due to Omarchy's security design, third-party code files are stripped during aut
 If you want to use the included Hyprland settings, Neovim styles, or VS Code presets provided in this repo, you can clone and copy them explicitly:
 
 ```bash
-# Clone the repository manually
-git clone https://github.com/<your-github-username>/red-instruments.git /tmp/red-instruments
-
-# Copy the custom Lua and VS Code definitions into your local theme directory
-cp /tmp/red-instruments/hyprland.lua ~/.config/omarchy/themes/red-instruments/
-cp /tmp/red-instruments/neovim.lua ~/.config/omarchy/themes/red-instruments/
-cp /tmp/red-instruments/vscode.json ~/.config/omarchy/themes/red-instruments/
-
-# Clean up
-rm -rf /tmp/red-instruments
+git clone https://github.com/Pabl0125/red-instruments.git ~/.config/omarchy/themes/red-instruments
+rm -rf ~/.config/omarchy/themes/red-instruments/.git
+omarchy theme set red-instruments
 ```
